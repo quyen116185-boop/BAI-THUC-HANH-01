@@ -4,7 +4,7 @@ int main() {
     int N, i;
 
     printf("Nhap N: ");
-    sacnf("%d", &N);
+    scanf("%d", &N);
 
     if (N < 2) {
         printf("%d khong phai so nguyen to", N);
@@ -13,7 +13,7 @@ int main() {
 
         while (i * i <= N) {
             if (N % i == 0) {
-                printf("%d khong phai so nguyen to",);
+                printf("%d khong phai so nguyen to", N);
                 return 0;
             }
 
